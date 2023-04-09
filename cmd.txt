@@ -1,0 +1,10 @@
+
+Trabalhando com express
+** Comandos utilizados em ordem, no terminal **
+
+npm init -y
+
+npm i--save express  ou npm i --save express@4.16.3 -E  ( para utilizar uma version especifica)
+
+npm i --save-dev nomemon (utiliza-se apenas em ambiente de desenv. / e 
+responsavel para chamar a aplicacao e atualizar e salvar de forma automatica)
