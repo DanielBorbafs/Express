@@ -8,3 +8,13 @@ npm i--save express  ou npm i --save express@4.16.3 -E  ( para utilizar uma vers
 
 npm i --save-dev nomemon (utiliza-se apenas em ambiente de desenv. / e 
 responsavel para chamar a aplicacao e atualizar e salvar de forma automatica)
+
+npm i --save pm2  (segue quase a mesma ideia do nodemon, atualiza automaticamente, porem de forma mais profissional, esse 
+é mais indicado para trabalhar em ambientes de producao)
+
+pm2 status  >> mostra o status do servidor 
+pm2 monit >> abre um dashboard de controle do servidor
+pm2 show 0 >> mostra os logs etc..
+pm2 restart '0'  o 0 e o id da aplicacao  >> restart aplicacao
+pm2 stop 0
+pm2 kill  < matar o pm2 >
