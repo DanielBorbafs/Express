@@ -1,5 +1,8 @@
 const express = require('express')
 const app = express()
+const saudacao = require('./saudacaomid')
+
+app.use(saudacao('Daniel'))
 
 app.use('/home', (req, res, next) => {
     console.log('antes..')
