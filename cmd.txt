@@ -18,3 +18,5 @@ pm2 show 0 >> mostra os logs etc..
 pm2 restart '0'  o 0 e o id da aplicacao  >> restart aplicacao
 pm2 stop 0
 pm2 kill  < matar o pm2 >
+
+npm i --save body-parser - instalar no mod dev e prod
